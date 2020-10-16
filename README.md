@@ -1,5 +1,5 @@
 # ML-PHY5G-Beam-Selection
-By using Coordinates as input we have added few more layers in te existing model. 
+By using Coordinates as input we have added few more layers in the existing model. 
 
 
 
