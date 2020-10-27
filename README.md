@@ -11,7 +11,7 @@ Output.txt Link: https://drive.google.com/file/d/1gK3KOO57GV0FJaL3sZ3eBctrgV_N9c
 
 By using Coordinates as input we have added a few more layers in the existing model.
 
-Model : 
+# Model : 
 
 We modified the model in the ModelHandler.py file for the coordinates section (‘coord_mlp’). We are training only over coordinate inputs and used the model in following structure:
 4 Dense layers of size 16
@@ -21,11 +21,11 @@ We modified the model in the ModelHandler.py file for the coordinates section (�
 Softmax layer at the end for 3 classes
 
 
-Instructions to run the code:
+# Instructions to run the code:
 
 ITU_Beam.ipynb is the main code which includes both the beam_train_model and beam_test_model. This code can be used to generate the required output.
 
-Note : Please note that we have considered only Coordinates dataset of Baseline data to train as well as test the model. 
+<b> Note : </b> Please note that we have considered only Coordinates dataset of Baseline data to train as well as test the model. 
 
 In the third cell of ITU_Beam.ipynb, you can change the Training as well as Test data path as per the requirement (Please ensure that only coordinates dataset is provided).
 The Last cell in ITU_Beam.ipynb, predicts the output of test data.
