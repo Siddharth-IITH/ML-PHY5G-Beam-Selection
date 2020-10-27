@@ -34,7 +34,4 @@ The Last cell in ITU_Beam.ipynb, predicts the output of test data.
 
 Output Result :
 
-We have achieved training accuracy of 76.05% and test accuracy 72.69% for 10 best beams, as illustrated in Fig. 1 (a). We have uploaded our predictions of the s009 test dataset in the output.txt file (Pl. check the github link provided for the same). 
-
-
-Fig. 1. Dataset epoch vs accuracy for best (a) 10 beams and (b) 5 beams
+We have achieved training accuracy of 76.05% and test accuracy 72.69% for 10 best beams. We have uploaded our predictions of the s009 test dataset in the output.txt file (Pl. check the github link provided for the same). 
