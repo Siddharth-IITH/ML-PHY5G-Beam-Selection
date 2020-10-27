@@ -4,11 +4,12 @@ By using Coordinates as input we have added few more layers in the existing mode
 # Model : 
 
 We modified the model in the ModelHandler.py file for the coordinates section (‘coord_mlp’). We are training only over coordinate inputs and used the model in following structure:
-4 Dense layers of size 16
-2 Dense layers of size 64
-2 Dense layers of size 128
-2 Dense layers of size 256
-Softmax layer at the end for 3 classes
+
+* 4 Dense layers of size 16
+* 2 Dense layers of size 64
+* 2 Dense layers of size 128
+* 2 Dense layers of size 256
+* Softmax layer at the end for 3 classes
 
 
 # Instructions to run the code:
