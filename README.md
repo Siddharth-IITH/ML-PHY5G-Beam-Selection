@@ -1,16 +1,6 @@
 # ML-PHY5G-Beam-Selection
 By using Coordinates as input we have added few more layers in the existing model. 
 
-
-
-# Result
-We have achieved training acuracy of 76.05% and test accuracy 72.69%. We have uploaded our predictions of s009 test dataset in output.txt file.
-
-Output.txt Link: https://drive.google.com/file/d/1gK3KOO57GV0FJaL3sZ3eBctrgV_N9cue/view?usp=sharing 
-
-
-By using Coordinates as input we have added a few more layers in the existing model.
-
 # Model : 
 
 We modified the model in the ModelHandler.py file for the coordinates section (‘coord_mlp’). We are training only over coordinate inputs and used the model in following structure:
@@ -34,4 +24,6 @@ The Last cell in ITU_Beam.ipynb, predicts the output of test data.
 
 # Output Result :
 
-We have achieved training accuracy of 76.05% and test accuracy 72.69% for 10 best beams. We have uploaded our predictions of the s009 test dataset in the output.txt file (Pl. check the github link provided for the same). 
+We have achieved training acuracy of 76.05% and test accuracy 72.69%. We have uploaded our predictions of s009 test dataset in output.txt file.
+
+Output.txt Link: https://drive.google.com/file/d/1gK3KOO57GV0FJaL3sZ3eBctrgV_N9cue/view?usp=sharing 
